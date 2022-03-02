@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Start of the head -->
+<head>
+	<title>Assignment 3</title>
+
+	<meta charset="utf-8">
+	<meta name="description" content="This is a HTML document containing Assignment 3" >
+	<meta name="keywords" content="HTML, HTML5, Advanced HTML, New Tags, Special Tags">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="author" content="Dominique Boucher">
+</head>
+
+<!-- End of the head -->
+<!-- Start of the body -->
+<body>
+	<h1>HTML Form </h1>
+	<div id="wrapper" class="wrapper">
+
+		<!-- Main Section -->
+		<section id="html-forms" class="main-section-1">
+			<form action="formpage.php" method="get">
+
+				<!-- First Name -->
+				<div id="fn-container" class="form-element">
+					<label for="firstname">First Name&colon;</label>
+						<input type="text" name="firstName" id="firstname" placeholder="Type First Name here" required>
+				</div>
+
+				<!-- Last Name -->
+				<div id="ln-container" class="form-element">
+					<label for="lastname">Last Name&colon;</label>
+						<input type="text" name="lastname" id="lastname" placeholder="Type Last Name here" required>
+				</div>
+
+				<!-- Email -->
+				<div id="email-container" class="form-element">
+					<label for="email">E-mail&colon;</label>
+						<input type="email" name="email" id="email" placeholder="Type E-mail here" required>
+				</div>
+
+				<!-- Password -->
+				<div id="password-container" class="form-element">
+					<label for="password">Password&colon;</label>
+						<input type="password" name="password" id="password" placeholder="Type Password here" required>
+				</div>
+
+				<!--Introductary Text -->
+				<div id="intro-container" class="form-elm">
+					<label for="introduction">Introduction Text&colon;</label>
+					<textarea name="introduction" id="introduction" placeholder="Type introduction here">
+					Please type your introduction here.
+					</textarea>
+				</div> <br>
+
+				<!-- Date of Birth -->
+				<div id="date-container" class="form-element">
+					<label for="birthdate">Date of Birth&colon;</label>
+					<input type="date" name="date" id="birthdate">
+				</div>
+
+				<!-- Mobile Number -->
+				<div id="phone-container" class="form-element">
+					<label for="phone">Mobile Number&colon;</label>
+					<input type="number" id="phone" name="phone" placeholder="Type Mobile Number here" required>
+				</div>
+
+				<!-- Gender -->
+				<div id="radio-container" class="form-element">
+					<p>Gender&colon;</p>
+					<label for="female">
+	
+						<input type="radio" name="gender" id="female" value="female">
+						Female
+					</label>
+					<label>
+						<input type="radio" name="gender" id="male" value="male">
+						Male
+					</label>
+					<label>
+						<input type="radio" name="gender" id="othergender" value="other_gender">
+						Other
+					</label>
+				</div> <br>
+
+				<!-- Address -->
+				<div id="address-container" class="form-element">
+					<label for="address">Home Address&colon;</label>
+						<input type="text" name="address" id="address" placeholder="Type Address here">
+				</div>
+
+				<!-- City -->
+				<div id="city-container" class="form-element">
+					<label for="city">City&colon;</label>
+						<input type="text" name="city" id="city" placeholder="Type City here">
+				</div>
+
+				<!-- Province -->
+				<div id="province-container" class="form-element">
+					<label for="Province">Province&colon;</label>
+					<select id="Province" name="Province">
+							<option value="Alberta">Alberta</option>
+							<option value="British_Columbia">British Columbia</option>
+							<option value="Manitoba">Manitoba</option>
+							<option value="New_Brunswick">New Brunswick</option>
+							<option value="Newfoundland_and_Labrador">Newfoundland and Labrador</option>
+							<option value="Northwest_Territories">Northwest Territories</option>
+							<option value="Nova_Scotia">New Scotia</option>
+							<option value="Nunavut">Nunavut</option>
+							<option value="Ontario">Ontario</option>
+							<option value="Prince_Edward_Island">Prince Edward Island</option>
+							<option value="Quebec">Quebec</option>
+							<option value="Saskatchewan">Saskatchewan</option>
+							<option value="Yukon">Yukon</option>
+					</select>
+				</div>
+
+				<!-- Country -->
+				<div id="country-container" class="form-element">
+					<label for="country">Country&colon;</label>
+					<select id="country" name="country">
+							<option value="Canada">Canada</option>
+							<option value="United_States">United States</option>
+							<option value="Other">Other</option>
+					</select>
+				</div>
+
+				<!--Postal Code -->
+				<div id="postal-container" class="form-element">
+					<label for="postal">Postal Code&colon;</label>
+						<input type="text" name="postal" id="postal" placeholder="Type Postal Code here">
+				</div>
+				
+				<!-- Hobbies -->
+				<div id="hobbies-container" class="form-element">
+					<h2>Hobbies&colon;</h2>
+					<label for="arts">Arts and Crafts</label>
+					<input type="checkbox" name="hobbies" id="arts" value="arts_and_crafts"> <br>
+
+					<label for="gardening">Gardening</label>
+					<input type="checkbox" name="hobbies" id="gardening" value="gardening"> <br>
+
+					<label for="music">Music</label>
+					<input type="checkbox" name="hobbies" id="music" value="music"> <br>
+
+					<label for="reading">Reading</label>
+					<input type="checkbox" name="hobbies" id="reading" value="reading"> <br>
+
+					<label for="sports">Sports</label>
+					<input type="checkbox" name="hobbies" id="sports" value="sports"> <br>
+
+					<label for="games">Video Games</label>
+					<input type="checkbox" name="hobbies" id="games" value="games"> <br>
+
+					<label for="reading">Other</label>
+					<input type="checkbox" name="hobbies" id="other" value="other"> <br>	
+				</div> <br>
+
+				<!-- Website -->
+				<div id="website-container" class="form-element">
+				<label for="website">Website&colon;</label>	
+					<input type="url" name="wesbite" id="website" placeholder="Type Website here">
+				</div><br>
+				<!-- Submit button -->
+				<button type="submit">Submit</button>
+				<!-- Reset button -->
+				<button type="reset">Reset</button>
+			</form>
+		</section>
+		<!--End of Main Section -->
+	</div>
+</body>
+<!-- End of body -->
+</html>
