@@ -2,7 +2,7 @@
 	main {
 		background-image: url("../img/circles.png");
 		width: 100%;
-		display: block;
+
 	}
 
 	header {
@@ -25,14 +25,15 @@
 
 	img {
   max-width: 100%;
-  height: auto;
+ 	 max-width: 100%;
+ 	 height: auto;
 	}
 
 	h1 { 
 	position: absolute;
 	top: 15px;
 	left: 200px;
-}
+	}
 
 	.sidebar {
 	position: absolute;
@@ -43,27 +44,28 @@
 
 	}
 
-nav li {
+	nav li {
 
-	background-color: lightblue;
-	color: black;
-	padding: 14px 40px;
-	text-align: center;
-	display: inline-block;
-}
+		background-color: lightblue;
+		color: black;
+		padding: 14px 40px;
+		text-align: center;
+		display: inline-block;
+
+	}
 
 	.footer-links {
 	position: absolute;
 	float: right; 
 	right: 25px;
 	top: 30px;
-}
+	}
 
-.img-slide {
- display: inline-block;
- text-align: center;
-}
+	.img-slide {
+		 display: inline-block;
+		 text-align: center;
+	}
 
-.main-content {
-	width: 65%;
-}
+	.main-content {
+		width: 65%;
+	}
