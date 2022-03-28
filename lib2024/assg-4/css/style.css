@@ -1,0 +1,69 @@
+
+	main {
+		background-image: url("../img/circles.png");
+		width: 100%;
+		display: block;
+	}
+
+	header {
+	 background: lightgreen;
+	 padding: 0px;
+	 height: 200px;
+	}
+
+	footer {
+		position: relative;
+		background: lightgreen;
+	   padding: 0px;
+	   height: 120px;
+	}
+
+	.container {
+	  max-width: 960px;
+	  margin: 0 auto;
+	}
+
+	img {
+  max-width: 100%;
+  height: auto;
+	}
+
+	h1 { 
+	position: absolute;
+	top: 15px;
+	left: 200px;
+}
+
+	.sidebar {
+	position: absolute;
+	 
+	width: 20%;
+	top: 300px;
+	right: 150px;
+
+	}
+
+nav li {
+
+	background-color: lightblue;
+	color: black;
+	padding: 14px 40px;
+	text-align: center;
+	display: inline-block;
+}
+
+	.footer-links {
+	position: absolute;
+	float: right; 
+	right: 25px;
+	top: 30px;
+}
+
+.img-slide {
+ display: inline-block;
+ text-align: center;
+}
+
+.main-content {
+	width: 65%;
+}
