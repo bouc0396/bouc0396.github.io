@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="utf-8">
+	<title>LIB2024 -- QA</title>
+	<style>
+		span.eg {
+				display: block;
+				position:absolute;
+				width: 200px;
+				height: 200px;
+				margin: center;
+				left: 50%;
+   				margin-right: -50%;
+   				top: 50%;
+ 				border: 1px black;  
+  				background-color: pink;
+		}
+
+		span.eg2 {
+				display: block;
+				position:absolute;
+				width: 100px;
+				height: 100px;
+				margin-left: 700px;
+ 				border: 1px black;  
+  				background-color: lightblue;
+  				-webkit-animation: spin 2s linear infinite;
+ 				 animation: spin 2s linear infinite;
+  			}
+  		
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+span.rotate-me {
+				display: block;
+				position:absolute;
+				width: 100px;
+				height: 100px;
+				margin-left: 700px;
+ 				border: 1px hotpink;  
+  				background-color: lightgrey;
+  				-webkit-animation: spin 0.5s linear infinite;
+ 				 animation: spin 0.5s linear infinite;
+ 				 -webkit-animation-iteration-count: 5;
+  			}
+  		
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+	</style>
+</head>
+<body>
+	<h1>LIB2024- QA</h1>
+	<ol>
+		<!-- Question 1 -->
+		<li>
+			<p>
+				<strong>What are the three components of Web?</strong>
+				
+			</p>
+			<p>
+				<strong>Answer: </strong>
+				HTML, CSS and Javascript
+		</p></li>
+		<!-- Question 2 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				Define version control and give one example.
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				Version control is a system that serves to save your old versions of a file as well as saving the new one. It is useful to be able to recover old version. An example of it is GitHub, it saves all the versions of your file and you can access the old version of a current file.
+			</p>
+		</li>
+		<!-- Question 3 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				What tag is used to create the title of a web page? Give an example.
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				You would use the tag &lt;h1&gt; for the main title of a web page. You can then use &lt;h2&gt; to &lt;h6&gt; for other titles. <br>
+				<h1>This is an example of a title. </h1>
+			</p>
+		</li>
+		<!-- Question 4 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				What tag is used to create a paragraph in html? Give an example.
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				You use the &lt;p&gt; tag.
+			</p>
+			<p>This an example of a new paragraph.</p>
+		</li>
+		<!-- Question 5 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 Identify the odd one from these tags: &lt;span&gt;, &lt;p&gt;, &lt;a&gt;, &lt;i&gt; and state the reason?
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				The &lt;p&gt; tag is the odd one out because it is the only one that is not an inline tag and it will create a new line.
+			</p>
+		</li>
+		<!-- Question 6 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 What are the tags required to create a navigation list in HTML? 
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				The &lt;nav&gt; tag is required.
+			</p>
+		</li>
+		<!-- Question 7-->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 What element is used to create images? Name its attributes. 
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				You would use the &lt;img src="x"&gt; element. The attributes are: alt and style.
+			</p>
+		</li>
+			<!-- Question 8-->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 Identify the odd one from these tags: &lt;table&gt;, &lt;tr&gt;, &lt;b&gt;, &lt;td&gt;  and state the reason.
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				The &lt;b&gt; tag is the odd one because it is not a tag used to form a table. 
+			</p>
+		</li>
+			<!-- Question 9-->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 Give an example of color picker input. 
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				<input type="color" value="#c570f9">
+			</p>
+		</li>
+			<!-- Question 10-->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 What is the use of name and value attributes? Give two examples
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				The name attribute specifies a name for an HTML element. For example in a form tag, the name will specify the name of a form. <br>
+				The value attribute specifies the initial value of an element. For example, in the color picker input tag, the value will specify which color to show at first.
+			</p>
+		</li>
+		<!-- Question 11-->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 Give an example of inline style. 
+			</p>
+			<p style = "color:red;">
+				<strong>Answer:</strong>
+				This is an example of an inline style.
+			</p>
+		</li>
+		<!-- Question 12-->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 How would you link an external style sheet? Give example. 
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				You would use the link tag. <br>
+				This is an example: &lt;link rel="stylesheet" href="mystylesheet.css"&gt;
+			</p>
+		</li>
+		<!-- Question 13-->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px. 
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				<span class="eg">Answer for question 13</span>
+				
+			</p>
+		</li>
+		<!-- Question 14 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				Create CSS keyframes block called "spin" that rotates an element. 
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				<span class="eg2">Weeeee!</span>
+			</p>
+  
+  		<!-- Question 15 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 Create CSS animation block to rotate an element that has the following properties :
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				<span class="rotate-me"> Woohoo! </span>
+			</p>
+		</li>
+		<!-- Question 16 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 How would you include create an alert with string "I love JavaScript" using JavaScript?
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				I would use alert("I love Javascript");.
+			</p>
+		</li>
+ 		<!-- Question 17 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				I would do: $('.fade-me').delay(300).fadeOut(500);
+			</p>
+		</li>
+		<!-- Question 18 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				 How would you select all elements with class "my-class" using Javascript and Jquery?
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				I would do: var x = document.querySelectorAll('.my-class');
+			</p>
+		</li>
+		<!-- Question 19 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				  Give an example of input field that takes phone number with format "123-456-7890"?
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				This is an example: <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+			</p>
+		</li>
+		<!-- Question 20 -->
+		<li>
+			<p>
+				<strong>Question:</strong>
+				  Among HTML, CSS, Javascript, JQuery, what language did you like the best? State the reason. 
+			</p>
+			<p>
+				<strong>Answer:</strong>
+				My favorite language was HTML. To me, it felt like the most logical/direct language. It was easy for me to understand the steps. I also think that the tags and elements are easier to remember than the ones from other languages.
+
+			</p>
+		</li>
+  </ol>
+</body>
+</html>
+
+
