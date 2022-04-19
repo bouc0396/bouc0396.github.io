@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<!-- Head begins -->
+<head>
+	<title>Final Assignment</title>
+
+	<meta charset="utf-8">
+	<meta name="description" content="This is a HTML document containing the final assignment" >
+	<meta name="keywords" content="HTML, HTML5, Advanced HTML">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="author" content="Dominique Boucher">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/5fe816e8f4.js" crossorigin="anonymous"></script>
+
+<!--Google font -->
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+	</style> 
+
+<!--Javascript -->
+	<script src="js/scripts.js"></script>
+</head>
+<!-- Head ends -->
+
+<!-- Body begins -->
+<body>
+
+<!-- Header begins -->
+<header>
+<h1>My Logo </h1>
+	<div class="topnav">
+  		<nav class="headernav" id="headernav">
+			<ul>
+				<li>
+					<a href="home.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="schedule.html">Schedule</a>
+				</li>
+				<li>
+					<a href="Portfolio.html">Portfolio</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+</div>
+</header>
+<!-- Header ends -->
+
+
+
+<!-- Section 1 begins -->
+	<section id="main-section" class="main-section">
+		<h2 class= "about_title" id="about_title">About </h2>
+		<div class="maintext">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in. Eget gravida cum sociis natoque penatibus et magnis dis. Nunc mi ipsum faucibus vitae aliquet nec. Dictum non consectetur a erat nam. Dictumst quisque sagittis purus sit amet. Elementum eu facilisis sed odio. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Tellus cras adipiscing enim eu turpis. Dictum at tempor commodo ullamcorper a lacus vestibulum. Dui sapien eget mi proin sed libero enim sed.</p>
+
+			<p>Elit ut aliquam purus sit amet. Justo laoreet sit amet cursus sit amet dictum sit amet. Euismod in pellentesque massa placerat duis. Ut placerat orci nulla pellentesque dignissim enim. Scelerisque purus semper eget duis at. Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum. Molestie at elementum eu facilisis sed odio morbi quis. Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique. Odio pellentesque diam volutpat commodo sed egestas. Lorem donec massa sapien faucibus et molestie ac. Elit ut aliquam purus sit amet. Justo laoreet sit amet cursus sit amet dictum sit amet. Euismod in pellentesque massa placerat duis. Ut placerat orci nulla pellentesque dignissim enim. Scelerisque purus semper eget duis at. </p>
+		</div>
+		<div class="mainimg">
+			 <img src="img/catsleep.jpg" alt="Orange cat sleeping"> 
+		</div>
+	</section>
+
+<!-- Section 2 begins -->
+	<section id="schedule-section" class="schedule-section">
+		<h2 class="table_title" id="table_title">Schedule </h2>
+ 			<table>
+				  <tr>
+				    <th>TIME</th>
+				    <th>MONDAY</th>
+				    <th>TUESDAY</th>
+				    <th>WEDNESDAY</th>
+				    <th>THURSDAY</th>
+				    <th>FRIDAY</th>
+				  </tr>
+				  <tr id="greyrow">
+				    <td>09:00 - 11: 00</td>
+				    <td>Communications I</td>
+				    <td>Client Services</td>
+				    <td>Special Collections</td>
+				    <td>Directed Research Seminar</td>
+				    <td>Client Services</td>
+				  </tr>
+				  <tr>
+				    <td>11:00 - 12:30</td>
+				    <td>References</td>
+				    <td>Internet App</td>
+				    <td>Library Software</td>
+				    <td>French</td>
+				    <td>Reference</td>
+				  </tr>
+				  <tr id="greyrow2">
+				    <td>14:00 - 15:00</td>
+				    <td>Acquisitions</td>
+				    <td>General Elective</td>
+				    <td>Marketing</td>
+				    <td>Emerging Library Tech</td>
+				    <td>Library Software</td>
+				  </tr>
+				  <tr>
+				    <td>15:30 - 17:30</td>
+				    <td>French</td>
+				    <td>French</td>
+				    <td>Acquisitions</td>
+				    <td>Subject Analysis</td>
+				    <td>Internet App</td>
+				  </tr>
+			</table> 
+		</section>
+
+<!-- Section 3 begins -->
+		<section id="form-section" class="form-section">
+
+<!-- Form begins -->
+		<h2 class="editprofile" id="editprofile">Edit Profile </h2>
+			<div class="form-div" id="form-div">
+				<form name="myform" action="/" method="post" id="myform">
+
+					<!--Name -->
+					<label for="yourname">Name&colon;</label>
+									<input type="text" name="yourname" id="yourname" placeholder="Type full name here"><br><br>
+
+					<!-- Email -->
+					<label for="email">Email&colon;</label>
+									<input type="email" name="email" id="email" placeholder="Type email here">
+									<br><br>
+
+					<!-- Address -->
+					<label for="address">Address&colon;</label>
+									<input type="text" name="address" id="address" placeholder="Type address here"><br><br>
+
+					<!-- City -->
+					<label for="city">City&colon;</label>
+									<input type="text" name="city" id="city" placeholder="Type city here"><br><br>
+
+					<!-- Province -->		
+					<label for="Province">Province&colon;</label>
+						<select id="Province" name="province">
+							<option selected="" value="Default">Please select a province</option>
+							<option value="AB">Alberta</option>
+							<option value="BC">British Columbia</option>
+							<option value="MB">Manitoba</option>
+							<option value="NB">New Brunswick</option>
+							<option value="NL">Newfoundland and Labrador</option>
+							<option value="NT">Northwest Territories</option>
+							<option value="NS">New Scotia</option>
+							<option value="NU">Nunavut</option>
+							<option value="ON">Ontario</option>
+							<option value="PE">Prince Edward Island</option>
+							<option value="QC">Quebec</option>
+							<option value="SK">Saskatchewan</option>
+							<option value="YT">Yukon</option>
+						</select><br><br>
+						
+					<!-- Postal Code-->
+					<label for="postalcode">Postal code&colon;</label>
+									<input type="text" name="postalcode" id="postalcode" placeholder="Type postal code here" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]"><br><br>
+
+					<!-- Submit button -->
+					<input type="submit" value="submit" id="mybutton" onclick="formValidation()">
+				</form>
+			</div><br><br>
+	<!-- Form ends -->
+
+<!-- Profile card starts -->
+			<h2 class="profilecardtitle" id="profilecardtitle">Profile Info</h2>
+			<div class="profilecard" id="profilecard">
+ 			 	<img src="img/profileimg.jpg" alt="Your picture" id="profileimg"><br><br>
+  						<h3><span id="yourname_result"></span></h3>
+	  					 <p><a href="#" id="email_result"></a></p>
+	  					 <p><span id="address_result"></span>,
+	  					 <span id="city_result"></span></p>
+	  					<p> <span id="province_result"></span>,
+						 <span id="postalcode_result"></span></p>
+			</div>
+	</section>
+
+	<div class="overlay-container loader-container">
+		<div class="loader"></div>
+	</div>
+
+
+
+<!-- Footer begins -->
+<footer>
+<section class="footersection" id="footersection">
+	<div class="footerdiv1" id="footerdiv1">
+		<nav class="footernav" id="footernav">
+			<h4 class="quicklinks" id="quicklinks">QUICK LINKS <i class="fa-solid fa-link"></i></h4>
+				<ul>
+					<li>
+						<a href="schedule.html">Schedule</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					
+					<li>
+						<a href="Portfolio.html">Portfolio</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+		</nav>
+	</div>
+
+	<div class="footerdiv2" id="footerdiv2">
+	<h4 class="followlinks" id="followlinks">FOLLOW ME <i class="fa-solid fa-circle-check"></i></h4>
+		<i class="fa-brands fa-facebook-f" id="fbicon"></i>
+		<i class="fa-brands fa-youtube" id="yticon"></i>
+		<i class="fa-brands fa-twitter" id="twicon"></i>
+	</div>
+	<div class="footerdiv3" id="footerdiv3">
+		<h4 class="addresstitle" id="addresstitle">ADDRESS <i class="fa-solid fa-address-card"></i></h4>
+		 <p> 1385 Woodroffe Ave. <br> Nepean, ON K2G 1V8 <br>Canada </p>
+
+	</div>
+</section>
+</footer>
+<!-- Footer ends -->
+
+<!-- Scripts -->
+
+<!-- Welcome scripts -->
+<script>
+alert("Welcome to my final assignment!");
+</script>
+<!--JQuery scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+<!-- Body ends -->
+
+</html>
